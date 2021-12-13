@@ -3,11 +3,24 @@
   git config --global user.name <name>
   git config --global user.email <email>
 ```
-### initialize empty git repo
+### Initialize empty git repo
 ```
   git init
 ```
-### to check status and if it is a part of repo
+### To check status and if it is a part of repo
 ```
 git status
+```
+### Add files to staging environment (files ready to commit)
+###### Stages all changes
+```
+git add --all[-A]
+```
+###### Stages new files and modifications, without deletions
+```
+git add .
+```
+###### Add specific files
+```
+git add <filename>
 ```
